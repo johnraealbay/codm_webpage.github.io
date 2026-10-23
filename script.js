@@ -11,7 +11,7 @@
     const startTop = window.pageYOffset;
     const targetTop = target.getBoundingClientRect().top + startTop - navbarHeight;
     const distance = targetTop - startTop;
-    const duration = 850;
+    const duration = 300;
     const startTime = performance.now();
 
     function easeInOutCubic(progress) {
